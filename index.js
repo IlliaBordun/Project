@@ -1,5 +1,5 @@
 // Находим кнопку по id
-const myButton = document.getElementById('my-button');
+const myButton = document.getElementById('start');
 
 // Добавляем обработчик события на клик
 myButton.addEventListener('click', () => {
