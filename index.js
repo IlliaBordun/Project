@@ -7,7 +7,7 @@ myButton.addEventListener('click', () => {
     fetch('https://dream-singles.com/members/', {
         mode: 'cors' // Требует соответствующей настройки на сервере
     })
-    .then(response => response.json())
+    .then(response => response.text())
     .then(data => {
         // Обрабатываем полученные данные
         console.log(data);
